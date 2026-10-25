@@ -1,0 +1,59 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - button [ref=e40] [cursor=pointer]
+    - generic "scroll-test.pdf" [ref=e48]
+    - textbox "Nombre del proyecto" [ref=e49]: scroll-test.pdf
+    - generic [ref=e50]: Guardado
+    - generic [ref=e51]:
+      - button "Deshacer" [disabled] [ref=e52]
+      - button "Rehacer" [disabled] [ref=e56]
+      - button "Historial (0)" [ref=e61] [cursor=pointer]
+      - button "Guardar versión" [ref=e62] [cursor=pointer]
+      - button "Coordenadas" [ref=e63] [cursor=pointer]
+      - button "Exportar PDF" [ref=e67] [cursor=pointer]
+      - button "Cargar otro PDF" [ref=e71] [cursor=pointer]
+  - generic [ref=e11]:
+    - generic [ref=e12]:
+      - button "Seleccionar" [ref=e75] [cursor=pointer]
+      - button "× Aspa" [ref=e78] [cursor=pointer]:
+        - generic [ref=e79]: ×
+        - text: Aspa
+      - button "Punto" [ref=e80] [cursor=pointer]
+    - generic [ref=e83]:
+      - button "#EF4444" [ref=e84] [cursor=pointer]
+      - button "#3B82F6" [ref=e87] [cursor=pointer]
+      - button "#22C55E" [ref=e88] [cursor=pointer]
+      - button "#EAB308" [ref=e89] [cursor=pointer]
+      - button "#A855F7" [ref=e90] [cursor=pointer]
+    - generic [ref=e32]:
+      - generic [ref=e33]: Tamaño
+      - slider [ref=e92]: "10"
+      - generic [ref=e93]: "10"
+    - generic [ref=e95]:
+      - button [ref=e96] [cursor=pointer]
+      - generic [ref=e98]: 115%
+      - button [active] [ref=e99] [cursor=pointer]
+    - button "Ajustar página" [ref=e101] [cursor=pointer]
+    - button "Ajustar ancho" [ref=e102] [cursor=pointer]
+    - button "Eliminar seleccionada" [disabled] [ref=e103]
+  - generic [ref=e107]:
+    - generic [ref=e108]:
+      - generic "Página 1 del PDF" [ref=e110]
+      - generic [ref=e112]:
+        - button [disabled] [ref=e113]
+        - generic [ref=e116]: Página 1 de 2
+        - button [ref=e117] [cursor=pointer]
+      - generic [ref=e120]: 115%
+    - complementary [ref=e127]:
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - heading "Marcas" [level=2] [ref=e130]
+          - generic [ref=e131]: 0 marcas en total
+        - button "Limpiar marcas de esta página" [ref=e132] [cursor=pointer]
+      - generic [ref=e136]:
+        - generic [ref=e140]: Aún no hay marcas
+        - generic [ref=e141]: Selecciona una herramienta y haz clic sobre el plano para empezar.
+        - generic [ref=e142]: Elige Aspa o Punto arriba
+      - generic [ref=e145]:
+        - text: Coordenadas normalizadas
+        - button "CSV ↓" [ref=e147] [cursor=pointer]

@@ -1,0 +1,23 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: PDF Lot Marker
+    - generic [ref=e9]: Proyectos guardados solo en este dispositivo
+  - generic [ref=e11]:
+    - generic [ref=e12]: HERRAMIENTA PARA PLANOS INMOBILIARIOS
+    - heading "Tu plano, marcado con precisión." [level=1] [ref=e14]: Tu plano, marcadocon precisión.
+    - paragraph [ref=e15]: Marca lotes, añade puntos y exporta tus coordenadas en segundos. Todo desde tu navegador.
+    - generic [ref=e16]:
+      - strong [ref=e21]: Crear proyecto desde un PDF
+      - generic [ref=e22]: Los proyectos y archivos permanecen en este navegador
+      - button "Seleccionar PDF ↗" [ref=e23] [cursor=pointer]:
+        - text: Seleccionar PDF
+        - generic [ref=e27]: ↗
+      - generic [ref=e28]: PDF · almacenamiento local
+    - generic [ref=e32]:
+      - generic [ref=e33]: 🔒
+      - generic [ref=e34]:
+        - generic [ref=e35]: Tus archivos nunca salen de tu dispositivo
+        - generic [ref=e36]: El procesamiento ocurre en el navegador. Guarda copias de seguridad externas si necesitas conservarlos.
+  - generic [ref=e37]:
+    - generic [ref=e38]: PDF LOT MARKER
+    - generic [ref=e39]: Proyectos almacenados localmente
